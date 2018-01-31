@@ -84,7 +84,7 @@ pcm.!default {
     playback.pcm {
         type plug
         slave {
-            pcm mix_i2s_48k
+            pcm mix_vol
         }
     }
     capture.pcm {
@@ -103,7 +103,7 @@ ctl.!default {
     playback.pcm {
         type plug
         slave {
-            pcm mix_i2s_48k
+            pcm mix_vol
         }
     }
     capture.pcm {
